@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two Sound
 
 ```blocks
 // Create a module driver, specify the i2c address
-let sound = Grove_Two_Sound.create(DEVICE_ID_TYPE.GROVE_TWO_SOUND_DEF_I2C_ADDR);
+let sound = Grove_Two_Sound.create(GROVE_TWO_SOUND.DEF_I2C_ADDR);
 
 // Get sound event vaule and display
 while(true)
